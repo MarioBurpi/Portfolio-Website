@@ -1,0 +1,8 @@
+.card {
+    background-color: #ffffff;
+    animation: fadeIn 2s;
+    margin: 6% auto 3% auto;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}

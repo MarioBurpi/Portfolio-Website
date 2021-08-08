@@ -11,6 +11,7 @@ import { HomeScrComponent } from './screens/home-scr/home-scr.component';
 import { AboutScrComponent } from './screens/about-scr/about-scr.component';
 import { WorkScrComponent } from './screens/work-scr/work-scr.component';
 import { ContactScrComponent } from './screens/contact-scr/contact-scr.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
