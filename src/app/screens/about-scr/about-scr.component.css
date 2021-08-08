@@ -1,0 +1,65 @@
+img {
+    padding: 15%;
+    transform: rotate(-4deg);
+}
+
+.card {
+    background-color: #ffffff;
+    animation: fadeIn 2s;
+    margin: 4%;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    img {
+        padding: 5%;
+    }
+    .card {
+        margin: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    height: 1500px;
+    background: url(https://www.brainpickings.org/wp-content/themes/brainpickings/images/bckgd_body.png);
+}
